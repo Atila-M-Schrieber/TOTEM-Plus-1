@@ -8,9 +8,9 @@
 | :-------------- | :---: | :------ |
 | TOTEM PCB       | 01 | You can find the files for it [here](/PCB/) |
 | Seeed XIAO      | 02 | You can choose between the BLE version (wireless) or the RP2040 version (wired) |
-| Choc key switch | 38 | Kailh Choc low profile key switches |
-| diodes 1N4148W  | 38 | These are surface mount diodes in SOD123 package |
-| 1u Choc keycaps | 38 | You can use the black or white keycaps from Kailh, but I recommend MBK, LDSA or CFX keycaps |
+| Choc key switch | 40 | Kailh Choc low profile key switches |
+| diodes 1N4148W  | 40 | These are surface mount diodes in SOD123 package |
+| 1u Choc keycaps | 40 | You can use the black or white keycaps from Kailh, but I recommend MBK, LDSA or CFX keycaps |
 | reset button    | 02 | Alps SKHLLCA010 |
 | USB-C cable     | 01 | For connecting the keyboard to your PC |
 | power switch    | 02 | MSK12C02 (only required for the Bluetooth build) |
@@ -23,7 +23,7 @@
 
 | Part name              | Count | Remarks | 
 | :--------------------- | :---: | :------ |
-| switch socket          | 38 | Switch sockets for Kailh choc switches |
+| switch socket          | 40 | Switch sockets for Kailh choc switches |
 
 
 ### 3DP CASE PARTS
@@ -41,6 +41,12 @@
 | Additional 8.5mm rubber feet | 2 | Optional, they can also be smaller |
 | Tenting feet | 4 | Example source [here](https://aliexpress.com/item/1005005605228469.html) |
 | Anti-Slip adhesive sheet | 1 | Optional, example source [here](https://aliexpress.com/item/1005005377684110.html) |
+
+### DONGLE PARTS
+| Part name              | Count | Remarks | 
+| :--------------------- | :---: | :------ |
+| Seeed XIAO      | 01 | (3 total) as a dongle |
+| Seeed XIAO case      | 01 | optional, for aesthetics |
 
 
 ## INTRODUCTION

@@ -5,10 +5,23 @@
 </picture>
 
 <h1 align="center">T O T E M</h1>
+<h2 align="center">Plus 1</h2>
 
-TOTEM is a 38 key column-staggered choc split keyboard. It is meant to be used with a SEEED XIAO BLE or RP2040.
-It was created for the SEEED XIAO keyboard contest.\
+TOTEM Plus 1 is a modified version of the TOTEM keyboard, with an extra pinky key.
+It is a 40 key column-staggered choc split keyboard. It is meant to be used with a SEEED XIAO BLE or RP2040.
+The build process is pretty much identical, except you need electronics for two more keys.
+(Sockets, diodes, switches, and keycaps)
 [Here](https://www.hackster.io/geist/totem-a-tiny-splitkeyboard-with-splay-cb2e43) you can read about the process of making it.
+
+This fork incorporates the [Tenting fork](https://github.com/BertPlasschaert/TOTEM-Tenting).
+
+THIS IS UNDER DEVELOPMENT, THIS LINE WILL BE REMOVED WHEN I HAVE A WORKING KEYBOARD IN MY HANDS
+
+I MAY OR MAY NOT MODIFY PICTURES HERE OR IN THE BUILD GUIDE. IF I DO THIS LINE WILL BE REMOVED.
+UNTIL THEN, ALL PICTURES ARE FROM THE ORIGINAL BUILD / THE TENTING FORK.
+
+I AM PRIMARILY DOING THIS FOR A DONGLE + BLE SETUP. IF I END UP MAKING CHANGES TO THE WIRED VERSIONS
+OF THE CASES, I WILL REMOVE THIS LINE.
 
 ***
 
