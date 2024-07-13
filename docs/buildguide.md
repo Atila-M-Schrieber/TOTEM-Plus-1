@@ -24,6 +24,8 @@
 | Part name              | Count | Remarks | 
 | :--------------------- | :---: | :------ |
 | switch socket          | 40 | Switch sockets for Kailh choc switches |
+| toggle switch          | 1/2 | Extra toggle switch(es) to act as layer switch(es) MSK12C02 (same as power switch), only compatible with the Bluetooth build |
+| diodes 1N4148W         | 1/2 | Extra diode(s) for layer switch(es) SOD123, only compatible with the Bluetooth build |
 
 
 ### 3DP CASE PARTS

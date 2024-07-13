@@ -50,6 +50,8 @@ OF THE CASES, I WILL REMOVE THIS LINE.
       so I'll see if/how I can use it.
 ***
 
+(The Plus in the 'totem pole' logo is (supposed to be) a hammerhead)
+
 ## LAYOUT
 
 ![TOTEM layout](/docs/images/TOTEM_layout.svg)
