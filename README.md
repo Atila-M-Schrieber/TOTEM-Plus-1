@@ -13,6 +13,11 @@ The build process is pretty much identical, except you need electronics for two 
 (Sockets, diodes, switches, and keycaps)
 [Here](https://www.hackster.io/geist/totem-a-tiny-splitkeyboard-with-splay-cb2e43) you can read about the process of making it.
 
+While the layout is pretty much identical to the [KLOR KONRAD](https://github.com/GEIGEIGEIST/KLOR),
+I prefer the æsthetics of the TOTEM, and I have no need for a rotary encoder on this keyboard.
+Also, I wanted to dip my toes into PCB editing, and this seemed like a slightly bigger challenge
+(it was) than removing the rotary encoder from the KLOR.
+
 This fork incorporates the [Tenting fork](https://github.com/BertPlasschaert/TOTEM-Tenting).
 
 THIS IS UNDER DEVELOPMENT, THIS LINE WILL BE REMOVED WHEN I HAVE A WORKING KEYBOARD IN MY HANDS
@@ -23,6 +28,20 @@ UNTIL THEN, ALL PICTURES ARE FROM THE ORIGINAL BUILD / THE TENTING FORK.
 I AM PRIMARILY DOING THIS FOR A DONGLE + BLE SETUP. IF I END UP MAKING CHANGES TO THE WIRED VERSIONS
 OF THE CASES, I WILL REMOVE THIS LINE.
 
+### Potential features:
+- [ ] I like the idea of using a switch (like the on/off one) as a way to turn a layer on/off,
+      especially for a usecase like gaming. Since I'm going to use this wirelessly, I might add
+      another switch (same as the power on/off switch) in a similar pinout to where the TRRS
+      jack goes. I can probably add the footprint without even removing the TRRS footprints.
+      This would mean another row/column from the UART pins, but if all I add is the switch,
+      I don't even need a diode.
+  - If I'm using the UART pins for something else, like trackpoint support, this won't work
+    (or only on one side of the keyboard, ie 'gaming mode' switch on left side, trackpoint on right)
+    - Alternatively I can add an I/O expander (MCP23017), which is already supported in ZMK
+- [ ] Trackpoint support: ([see this pull request / fork](https://github.com/zmkfirmware/zmk/pull/1751))
+      This would be a replacement for the TRRS jacks, since it uses UART.
+      I have ordered [this module](https://www.aliexpress.com/item/1005004696754100.html),
+      so I'll see if/how I can use it.
 ***
 
 ## LAYOUT
