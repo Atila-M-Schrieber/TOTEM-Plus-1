@@ -25,6 +25,8 @@ This fork incorporates the [Tenting fork](https://github.com/BertPlasschaert/TOT
 
 THIS IS UNDER DEVELOPMENT, THIS LINE WILL BE REMOVED WHEN I HAVE A WORKING KEYBOARD IN MY HANDS
 
+I HAVE A FULLY SOLDERED PCB IN HAND, WILL GET FIRMWARE ON IT AND TEST. WILL UPDATE THIS LINE IF IT WORKS
+
 I MAY OR MAY NOT MODIFY PICTURES HERE OR IN THE BUILD GUIDE. IF I DO THIS LINE WILL BE REMOVED.
 UNTIL THEN, ALL PICTURES ARE FROM THE ORIGINAL BUILD / THE TENTING FORK.
 
@@ -78,6 +80,9 @@ The build guide for the TOTEM can be found [here](/docs/buildguide.md).
 
 ## FIRMWARE
 
+[My ZMK config](https://github.com/eigatech/zmk-config/tree/totem-dongle) for the TOTEM-Plus-1 wireless + dongle build
+
+### The originals:
 [QMK config](https://github.com/GEIGEIGEIST/qmk-config-totem) for the TOTEM (wired using the XIAO RP2040)\
 [ZMK config](https://github.com/GEIGEIGEIST/zmk-config-totem) for the TOTEM (wireless using the XIAO BLE)
 
