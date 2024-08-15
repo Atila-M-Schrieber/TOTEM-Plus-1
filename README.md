@@ -24,8 +24,8 @@ Also, I wanted to dip my toes into PCB editing, and this seemed like a slightly 
 This fork incorporates the [Tenting fork](https://github.com/BertPlasschaert/TOTEM-Tenting).
 
 THIS IS UNDER DEVELOPMENT, THIS LINE WILL BE REMOVED WHEN I HAVE A WORKING KEYBOARD IN MY HANDS
-
-I HAVE A FULLY SOLDERED PCB IN HAND, WILL GET FIRMWARE ON IT AND TEST. WILL UPDATE THIS LINE IF IT WORKS
+- The PCB works, it did have an error regarding the left layer switch (toggle switch where the
+  TRRS jack would go) accidentally grounding itself, but that is now fixed.
 
 I MAY OR MAY NOT MODIFY PICTURES HERE OR IN THE BUILD GUIDE. IF I DO THIS LINE WILL BE REMOVED.
 UNTIL THEN, ALL PICTURES ARE FROM THE ORIGINAL BUILD / THE TENTING FORK.
@@ -41,7 +41,7 @@ OF THE CASES, I WILL REMOVE THIS LINE.
       This would mean another row or column from one of the UART pins
         - If I'm using the UART pins for something else, like trackpoint support, this won't work
           (or only on one side of the keyboard, ie 'gaming mode' switch on left side, trackpoint on right)
-        - In implementing this **I swapped the poles of the TRRS jack** (GND <-> VCC), so take note
+        - In implementing this **I swapped the poles of the TRRS jack** (GND -> TX -> VCC -> GND), so take note
           if you do end up using the wired version and need to debug the TTRS cable (for some reason).
         - There is a lot of overlap with the TRRS through holes - while it might be harder to solder
           due to the conduction, there is plenty of space to solder the switch leads.
