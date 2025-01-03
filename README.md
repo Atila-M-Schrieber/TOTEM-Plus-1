@@ -23,10 +23,6 @@ Also, I wanted to dip my toes into PCB editing, and this seemed like a slightly 
 
 This fork incorporates the [Tenting fork](https://github.com/BertPlasschaert/TOTEM-Tenting).
 
-THIS IS UNDER DEVELOPMENT, THIS LINE WILL BE REMOVED WHEN I HAVE A WORKING KEYBOARD IN MY HANDS
-- The PCB works, it did have an error regarding the left layer switch (toggle switch where the
-  TRRS jack would go) accidentally grounding itself, but that is now fixed.
-
 I MAY OR MAY NOT MODIFY PICTURES HERE OR IN THE BUILD GUIDE. IF I DO THIS LINE WILL BE REMOVED.
 UNTIL THEN, ALL PICTURES ARE FROM THE ORIGINAL BUILD / THE TENTING FORK.
 
