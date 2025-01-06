@@ -15,18 +15,12 @@ The build process is pretty much identical, except you need electronics for two 
 
 I will also be modifying the case to be able to fit into a magnetic travel case, like the one
 made by [Compression Keyboards](https://compressionkeyboards.com/products/4c-3d-printed-case-kit).
+The current V1 case is still missing accenting and some optimization, but is otherwise ready for use.
 
 While the layout is pretty much identical to the [KLOR KONRAD](https://github.com/GEIGEIGEIST/KLOR),
 I prefer the æsthetics of the TOTEM, and I have no need for a rotary encoder on this keyboard.
 Also, I wanted to dip my toes into PCB editing, and this seemed like a slightly bigger challenge
 (it was) than removing the rotary encoder from the KLOR.
-
-This fork incorporates the [Tenting fork](https://github.com/BertPlasschaert/TOTEM-Tenting).
-
-THIS IS UNDER DEVELOPMENT, THIS LINE WILL BE REMOVED WHEN I HAVE A WORKING KEYBOARD IN MY HANDS
-
-I MAY OR MAY NOT MODIFY PICTURES HERE OR IN THE BUILD GUIDE. IF I DO THIS LINE WILL BE REMOVED.
-UNTIL THEN, ALL PICTURES ARE FROM THE ORIGINAL BUILD / THE TENTING FORK.
 
 I AM PRIMARILY DOING THIS FOR A DONGLE + BLE SETUP. IF I END UP MAKING CHANGES TO THE WIRED VERSIONS
 OF THE CASES, I WILL REMOVE THIS LINE.
@@ -44,6 +38,9 @@ OF THE CASES, I WILL REMOVE THIS LINE.
         - There is a lot of overlap with the TRRS through holes - while it might be harder to solder
           due to the conduction, there is plenty of space to solder the switch leads.
     - Alternatively I can add an I/O expander (MCP23017), which is already supported in ZMK
+- [ ] Splitting the current top half of the case into top and middle sections, where the middle section
+      would be the key grid + the 'skirt' of the thumb cluster. This would eliminate the need for supports,
+      and would make the exposed key grid take on the texture of the print bed.
 - [ ] Trackpoint support: ([see this pull request / fork](https://github.com/zmkfirmware/zmk/pull/1751))
       This would be a replacement for the TRRS jacks, since it uses UART.
       I have ordered [this module](https://www.aliexpress.com/item/1005004696754100.html),
@@ -54,7 +51,7 @@ OF THE CASES, I WILL REMOVE THIS LINE.
 
 ## LAYOUT
 
-![TOTEM layout](/docs/images/TOTEM_layout.svg)
+![TOTEM layout](/docs/images/TOTEM_Plus_1_layout.svg)
 
 ***
 
@@ -71,40 +68,35 @@ You can use the TOTEM without a case, but [here](/case/) you can find one I made
 ***
 
 ## BUILD GUIDE
-  
+
 The build guide for the TOTEM can be found [here](/docs/buildguide.md).
 
 ***
 
 ## FIRMWARE
 
-[QMK config](https://github.com/GEIGEIGEIST/qmk-config-totem) for the TOTEM (wired using the XIAO RP2040)\
-[ZMK config](https://github.com/GEIGEIGEIST/zmk-config-totem) for the TOTEM (wireless using the XIAO BLE)
+[ZMK config](https://github.com/Atila-M-Schrieber/zmk-config) for the TOTEM Plus 1 (wireless with a dongle, using the XIAO BLE)
 
 ***
 
 ## PHOTOS
 
-This is the TOTEM in a black resin case
+This is the TOTEM Plus 1 in the V1 case optimized for FDM printing.
 
-![TOTEM black resin](/docs/images/TOTEM_black_perspective.jpg)\
-![TOTEM black resin](/docs/images/TOTEM_black_top.jpg)\
-![TOTEM black resin](/docs/images/TOTEM_black_bottom.jpg)
-
-This is the TOTEM with a black resin tenting bottom plate
-
-![TOTEM black resin tenting](/docs/images/TOTEM_black_tenting_example.jpg)\
-![TOTEM black resin tenting](/docs/images/TOTEM_black_tenting_bottom.jpg)
+![TOTEM layout](/docs/images/TOTEM_Plus_1_perspective.jpg)
+![TOTEM layout](/docs/images/TOTEM_Plus_1_top.jpg)
 
 ***
 
-## BUY 
+## BUY
 
 You can buy TOTEM kits and finished builds on [keeb.supply](https://keeb.supply/products/geist-totem) (unfortunately Europe only for now)
 
 ***
 
 ## CREDITS
+
+These credits are by GEIST.
 
 ### INSPIRATION
 
@@ -129,4 +121,3 @@ People who helped me create this board and fix stuff
 
 
 If you build a TOTEM I would be pretty happy to see some pictures. And if you want to leave me a tip you can do this [here](https://ko-fi.com/geigeigeist) (but please don't feel pressured)
-

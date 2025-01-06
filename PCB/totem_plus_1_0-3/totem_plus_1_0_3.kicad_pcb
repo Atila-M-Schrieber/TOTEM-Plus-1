@@ -8,10 +8,11 @@
 	)
 	(paper "User" 299.999 200)
 	(title_block
-		(title "TOTEM split keyboard")
-		(date "2022-11-03")
+		(title "TOTEM Plus 1 split keyboard")
+		(date "2024-09-20")
 		(rev "0.3")
-		(comment 1 "Made by GEIST")
+		(comment 1 "Modified by Atila M Schrieber")
+		(comment 2 "Made by GEIST")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -23073,7 +23074,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 2.25 9.2 360)
+			(at 2.25 9.2 0)
 			(layer "F.Fab")
 			(uuid "4dfa2afe-bcc7-4b9d-9fd1-3217200aca87")
 			(effects
@@ -23084,7 +23085,7 @@
 			)
 		)
 		(property "Footprint" "TOTEMlib:MSK12C02"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "073d3b91-d6c0-4a59-a38a-d6aa10a31f70")
@@ -23096,7 +23097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4ac73c3a-95ed-4349-b0ee-84cc82b5a39c")
@@ -23108,7 +23109,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "698cb044-5af1-4f47-b72e-61bcd216e8e3")
@@ -49572,6 +49573,14 @@
 		(uuid "7a7e6ca9-6067-4e04-b1c4-da1e1edceaa8")
 	)
 	(segment
+		(start 140.225 102.05)
+		(end 147.725 102.05)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "7bfafb2e-5c6e-47b3-9ece-cf0ac6052eef")
+	)
+	(segment
 		(start 29.452565 86.039348)
 		(end 30.672565 84.819348)
 		(width 0.2)
@@ -49698,14 +49707,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "75ca93c5-4a44-474a-b352-45e6080296b2")
-	)
-	(segment
-		(start 140.225 102.05)
-		(end 132.725 102.05)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "7bfafb2e-5c6e-47b3-9ece-cf0ac6052eef")
 	)
 	(segment
 		(start 110.313097 107.429997)
