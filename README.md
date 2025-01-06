@@ -72,15 +72,8 @@ The build guide for the TOTEM can be found [here](/docs/buildguide.md).
 
 ## FIRMWARE
 
-<<<<<<< HEAD
-[ZMK config](https://github.com/Atila-M-Schrieber/zmk-config) for the TOTEM Plus 1 (wireless with a dongle, using the XIAO BLE)
-=======
-[My ZMK config](https://github.com/eigatech/zmk-config/tree/totem-dongle) for the TOTEM-Plus-1 wireless + dongle build
-
-### The originals:
-[QMK config](https://github.com/GEIGEIGEIST/qmk-config-totem) for the TOTEM (wired using the XIAO RP2040)\
-[ZMK config](https://github.com/GEIGEIGEIST/zmk-config-totem) for the TOTEM (wireless using the XIAO BLE)
->>>>>>> b2682e4468d415d67db76e41b9e986abd8fe5182
+[My ZMK config](https://github.com/Atila-M-Schrieber/zmk-config) for the TOTEM Plus 1 (wireless with a dongle, using the XIAO BLE)
+[Original dongle ZMK config](https://github.com/eigatech/zmk-config/tree/totem-dongle) for the TOTEM-Plus-1 wireless + dongle build
 
 ***
 
