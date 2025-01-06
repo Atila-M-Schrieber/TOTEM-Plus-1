@@ -73,6 +73,7 @@ The build guide for the TOTEM can be found [here](/docs/buildguide.md).
 ## FIRMWARE
 
 [My ZMK config](https://github.com/Atila-M-Schrieber/zmk-config) for the TOTEM Plus 1 (wireless with a dongle, using the XIAO BLE)
+
 [Original dongle ZMK config](https://github.com/eigatech/zmk-config/tree/totem-dongle) for the TOTEM-Plus-1 wireless + dongle build
 
 ***
