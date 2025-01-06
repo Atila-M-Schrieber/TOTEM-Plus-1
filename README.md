@@ -22,9 +22,6 @@ I prefer the æsthetics of the TOTEM, and I have no need for a rotary encoder on
 Also, I wanted to dip my toes into PCB editing, and this seemed like a slightly bigger challenge
 (it was) than removing the rotary encoder from the KLOR.
 
-I AM PRIMARILY DOING THIS FOR A DONGLE + BLE SETUP. IF I END UP MAKING CHANGES TO THE WIRED VERSIONS
-OF THE CASES, I WILL REMOVE THIS LINE.
-
 ### Additional features:
 - [x] I like the idea of using a switch (like the on/off one) as a way to turn a layer on/off,
       especially for a usecase like gaming. Since I'm going to use this wirelessly, I might add
@@ -33,7 +30,7 @@ OF THE CASES, I WILL REMOVE THIS LINE.
       This would mean another row or column from one of the UART pins
         - If I'm using the UART pins for something else, like trackpoint support, this won't work
           (or only on one side of the keyboard, ie 'gaming mode' switch on left side, trackpoint on right)
-        - In implementing this **I swapped the poles of the TRRS jack** (GND <-> VCC), so take note
+        - In implementing this **I swapped the poles of the TRRS jack** (GND -> TX -> VCC -> GND), so take note
           if you do end up using the wired version and need to debug the TTRS cable (for some reason).
         - There is a lot of overlap with the TRRS through holes - while it might be harder to solder
           due to the conduction, there is plenty of space to solder the switch leads.
@@ -75,7 +72,15 @@ The build guide for the TOTEM can be found [here](/docs/buildguide.md).
 
 ## FIRMWARE
 
+<<<<<<< HEAD
 [ZMK config](https://github.com/Atila-M-Schrieber/zmk-config) for the TOTEM Plus 1 (wireless with a dongle, using the XIAO BLE)
+=======
+[My ZMK config](https://github.com/eigatech/zmk-config/tree/totem-dongle) for the TOTEM-Plus-1 wireless + dongle build
+
+### The originals:
+[QMK config](https://github.com/GEIGEIGEIST/qmk-config-totem) for the TOTEM (wired using the XIAO RP2040)\
+[ZMK config](https://github.com/GEIGEIGEIST/zmk-config-totem) for the TOTEM (wireless using the XIAO BLE)
+>>>>>>> b2682e4468d415d67db76e41b9e986abd8fe5182
 
 ***
 
