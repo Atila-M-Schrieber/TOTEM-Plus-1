@@ -86,14 +86,14 @@ The keycaps used can be found [here](https://github.com/sporkus/PseudoMakeMeKeyC
 and were printed on a Prusa SL1.
 
 
-![TOTEM layout](/docs/images/TOTEM_Plus_1_perspective_1.jpg)
-![TOTEM layout](/docs/images/TOTEM_Plus_1_top.jpg)
-![TOTEM layout](/docs/images/TOTEM_Plus_1_perspective_2.jpg)
-![TOTEM layout](/docs/images/TOTEM_Plus_1_bottom_2.jpg)
+![TOTEM Plus 1 perspective](/docs/images/TOTEM_Plus_1_perspective_1.jpg)
+![TOTEM Plus 1 top](/docs/images/TOTEM_Plus_1_top.jpg)
+![TOTEM Plus 1 perspective](/docs/images/TOTEM_Plus_1_perspective_2.jpg)
+![TOTEM Plus 1 bottom](/docs/images/TOTEM_Plus_1_bottom.jpg)
 
 The magnet arrangement for the travel case:
 
-![TOTEM layout](/docs/images/TOTEM_Plus_1_magnets_2.jpg)
+![TOTEM Plus 1 magnet layout](/docs/images/TOTEM_Plus_1_magnets.jpg)
 
 ***
 
