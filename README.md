@@ -35,7 +35,7 @@ Also, I wanted to dip my toes into PCB editing, and this seemed like a slightly 
         - There is a lot of overlap with the TRRS through holes - while it might be harder to solder
           due to the conduction, there is plenty of space to solder the switch leads.
     - Alternatively I can add an I/O expander (MCP23017), which is already supported in ZMK
-- [ ] Splitting the current top half of the case into top and middle sections, where the middle section
+- [x] Splitting the current top half of the case into top and middle sections, where the middle section
       would be the key grid + the 'skirt' of the thumb cluster. This would eliminate the need for supports,
       and would make the exposed key grid take on the texture of the print bed.
 - [ ] Trackpoint support: ([see this pull request / fork](https://github.com/zmkfirmware/zmk/pull/1751))
@@ -80,16 +80,20 @@ The build guide for the TOTEM can be found [here](/docs/buildguide.md).
 
 ## PHOTOS
 
-This is the TOTEM Plus 1 in the V1 case optimized for FDM printing.
+This is the TOTEM Plus 1 in the V2 case optimized for FDM printing.
+The case was printed using Gembird gray PETG on an Ender 3 V3 Plus with a 0.6mm nozzle and 0.3mm layer height.
+The keycaps used can be found [here](https://github.com/sporkus/PseudoMakeMeKeyCapProfiles) (the Chicago Stenographer version),
+and were printed on a Prusa SL1.
 
-![TOTEM layout](/docs/images/TOTEM_Plus_1_perspective.jpg)
+
+![TOTEM layout](/docs/images/TOTEM_Plus_1_perspective_1.jpg)
 ![TOTEM layout](/docs/images/TOTEM_Plus_1_top.jpg)
+![TOTEM layout](/docs/images/TOTEM_Plus_1_perspective_2.jpg)
+![TOTEM layout](/docs/images/TOTEM_Plus_1_bottom_2.jpg)
 
-***
+The magnet arrangement for the travel case:
 
-## BUY
-
-You can buy TOTEM kits and finished builds on [keeb.supply](https://keeb.supply/products/geist-totem) (unfortunately Europe only for now)
+![TOTEM layout](/docs/images/TOTEM_Plus_1_magnets_2.jpg)
 
 ***
 
