@@ -13,9 +13,10 @@ The build process is pretty much identical, except you need electronics for two 
 (Sockets, diodes, switches, and keycaps)
 [Here](https://www.hackster.io/geist/totem-a-tiny-splitkeyboard-with-splay-cb2e43) you can read about the process of making it.
 
-I will also be modifying the case to be able to fit into a magnetic travel case, like the one
+The case can fit into a magnetic travel case, like the one
 made by [Compression Keyboards](https://compressionkeyboards.com/products/4c-3d-printed-case-kit).
-The current V1 case is still missing accenting and some optimization, but is otherwise ready for use.
+The current V2 case is still missing accenting and some optimization, but is otherwise ready for use,
+and works great with the V0 travel case.
 
 While the layout is pretty much identical to the [KLOR KONRAD](https://github.com/GEIGEIGEIST/KLOR),
 I prefer the æsthetics of the TOTEM, and I have no need for a rotary encoder on this keyboard.
@@ -38,6 +39,9 @@ Also, I wanted to dip my toes into PCB editing, and this seemed like a slightly 
 - [x] Splitting the current top half of the case into top and middle sections, where the middle section
       would be the key grid + the 'skirt' of the thumb cluster. This would eliminate the need for supports,
       and would make the exposed key grid take on the texture of the print bed.
+      It also allows the removal of the top & bottom parts without having to remove all the keycaps.
+- [ ] The current tenting and anti-slip solutions work, but could be improved,
+      for example by integrating magnetic stands, for example using a MagSafe phone stand as the mounting and tenting solution.
 - [ ] Trackpoint support: ([see this pull request / fork](https://github.com/zmkfirmware/zmk/pull/1751))
       This would be a replacement for the TRRS jacks, since it uses UART.
       I have ordered [this module](https://www.aliexpress.com/item/1005004696754100.html),
@@ -74,7 +78,7 @@ The build guide for the TOTEM can be found [here](/docs/buildguide.md).
 
 [My ZMK config](https://github.com/Atila-M-Schrieber/zmk-config) for the TOTEM Plus 1 (wireless with a dongle, using the XIAO BLE)
 
-[Original dongle ZMK config](https://github.com/eigatech/zmk-config/tree/totem-dongle) for the TOTEM-Plus-1 wireless + dongle build
+[Original dongle ZMK config](https://github.com/eigatech/zmk-config/tree/totem-dongle) for the TOTEM wireless + dongle build
 
 ***
 
@@ -94,6 +98,14 @@ and were printed on a Prusa SL1.
 The magnet arrangement for the travel case:
 
 ![TOTEM Plus 1 magnet layout](/docs/images/TOTEM_Plus_1_magnets.jpg)
+
+The travel case:
+
+![TOTEM Plus 1 travel case](/docs/images/buildguide/7_travel_case.jpg)
+![TOTEM Plus 1 in travel case](/docs/images/TOTEM_Plus_1_in_travel_case.jpg)
+
+The current V0 travel case is not yet properly optimized for FDM printing,
+and is missing some features, like having storage for the dongle.
 
 ***
 
